@@ -21,6 +21,7 @@ from playwright.sync_api import sync_playwright
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 FONTS = ROOT / "assets" / "fonts"
 LOGO = ROOT / "assets" / "logo.png"
+LOGO_FULL = ROOT / "assets" / "logo-full-white.png"
 BG, SURFACE, ACCENT = "#1A0630", "#2E0D52", "#FFC50D"
 COND = "'Barlow Condensed', 'Arial Narrow', sans-serif"
 
@@ -62,6 +63,8 @@ def row(r):
 
 def build(d):
     rows = "\n".join(row(r) for r in d["rows"][:6])
+    brand = (f'<img src="{uri(LOGO_FULL)}" alt="Oyunluyorum" style="height:60px;width:auto">' if LOGO_FULL.exists()
+             else f'<div style="font-family:{COND};font-weight:800;font-size:40px;letter-spacing:4px;color:{ACCENT}">OYUNLUYORUM</div>')
     bg = (f'<div style="position:absolute;left:0;top:0;width:1080px;height:900px;overflow:hidden">'
           f'<img src="{uri(d["bg_image"])}" style="width:100%;height:100%;object-fit:cover;display:block">'
           f'<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(26,6,48,.55) 0%,rgba(26,6,48,.35) 30%,rgba(26,6,48,.85) 70%,{BG} 100%)"></div></div>'
@@ -73,7 +76,7 @@ body{{margin:0}}</style></head><body>
 <div style="width:1080px;height:1920px;box-sizing:border-box;background:{BG};color:#fff;font-family:Inter,Arial,sans-serif;display:flex;flex-direction:column;padding:150px 72px 170px;gap:40px;position:relative;overflow:hidden">
 {bg}
 <div style="position:relative;display:flex;justify-content:space-between;align-items:center;gap:24px">
-<div style="display:flex;align-items:center;gap:16px">{logo_img(64)}<div style="font-family:{COND};font-weight:800;font-size:40px;letter-spacing:4px;color:{ACCENT}">OYUNLUYORUM</div></div>
+{brand}
 <div style="font-size:28px;font-weight:600;color:#EDE4F7">{e(d["date"])}</div></div>
 <div style="position:relative;display:flex;flex-direction:column;gap:20px;margin-top:60px">
 <h1 style="margin:0;font-family:{COND};font-weight:800;font-size:150px;line-height:.98;text-transform:uppercase;text-shadow:0 4px 24px rgba(0,0,0,.6)">Günün<br><span style="color:{ACCENT}">indirimleri</span></h1>
