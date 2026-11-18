@@ -45,7 +45,7 @@ def row(r):
     if r.get("free"):
         thumb = (f'<img src="{uri(r["image"])}" style="width:200px;height:112px;flex:none;border-radius:14px;object-fit:cover;display:block">'
                  if r.get("image") else
-                 f'<div style="width:200px;height:112px;flex:none;border-radius:14px;background:{BG};display:flex;align-items:center;justify-content:center">{logo_img(64)}</div>')
+                 f'<div style="width:200px;height:112px;flex:none;border-radius:14px;background:{BG};display:flex;align-items:center;justify-content:center">{logo_img(88)}</div>')
         return f'''<div style="display:flex;align-items:center;gap:24px;padding:18px;border-radius:24px;background:{ACCENT};color:{BG}">
 {thumb}<div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:6px">{name}
 <div style="font-size:22px;font-weight:600">{e(r.get("store"))} · {e(r.get("until"))}</div></div>
