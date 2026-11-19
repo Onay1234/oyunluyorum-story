@@ -9,7 +9,7 @@ Görseller: Digital Foundry videosundan kareler (X, @TheGameVerse paylaşımı)
 
 GTA 6'nın içinde koca bir oyun konsolu var 🎮 Evdeki JoySystem'i açıyorsun ve mini oyun değil, ara sahnesi, menüsü, bölümleri olan tam oyunlar oynuyorsun.
 
-Zombi nişancısı Street Trash 3, indie oyunlarla dalga geçen Tenebrae Lux, yukarıdan bakışlı Time Hackers Rewind ve plastik tüfekle oynanan bir av oyunu. Hepsini Rockstar'ın içindeki ayrı bir ekip yapmış 👇
+Zombi nişancısı Street Trash 3, indie oyunlarla dalga geçen Tenebrae Lux, yukarıdan bakışlı Time Jackers Rewind ve plastik tüfekle oynanan bir av oyunu. Hepsini Rockstar'ın içindeki ayrı bir ekip yapmış 👇
 
 Kaydet, oyuna girince ilk bunu dene. Oyunda oyun oynamayı seven arkadaşına da gönder 📩
 
