@@ -1,6 +1,6 @@
 # GTA 6 bedava araba tamiri – Instagram karuseli
 
-Durum: hazır, henüz paylaşılmadı
+Durum: 19 Kasım 2026 12:16 (Berlin) için planlandı
 Boyut: 1080×1440, 4 slayt
 Tasarım tuvali: https://claude.ai/artifact/MqaMBCVajFB7ygQBttjFmB
 Kaynak: https://gamerant.com/gta-6-fix-car-engine-how-free/
