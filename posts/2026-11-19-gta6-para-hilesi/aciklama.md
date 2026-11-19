@@ -1,6 +1,6 @@
 # GTA 6 sınırsız para hilesi – Instagram karuseli
 
-Durum: Instagram karusel paylaşıldı 19.11.2026 18:02 (Berlin) · https://www.instagram.com/p/Df7lr6sH9TM/ · Reels sürümü (gta6-para-hilesi-reels.mp4, 23 sn, sessiz) TikTok + YouTube Shorts
+Durum: Instagram karusel paylaşıldı 19.11.2026 18:02 (Berlin) · https://www.instagram.com/p/Df7lr6sH9TM/ · Reels sürümü (gta6-para-hilesi-reels.mp4, 23 sn, sessiz) TikTok https://www.tiktok.com/@oyunlu_yorum/video/7709933975023897878 · YouTube https://www.youtube.com/shorts/N8XyRKXFoFA (19.11 18:21)
 Boyut: 1080×1440, 5 slayt
 Kaynak: https://gamerant.com/unlimited-money-glitch-gta-6/
 
