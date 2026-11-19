@@ -6,7 +6,7 @@ Kaynak: https://www.gamespot.com/articles/all-gta-6-smartphone-apps-and-what-the
 
 ## Açıklama
 
-GTA 6'da telefon sadece süs değil 📱 Araba çalmadan önce tarıyorsun, aracını kuryeyle ayağına getirtiyorsun, görevler mesajla geliyor, boş vakitte de Snapmatic'te doomscroll 😅
+GTA 6'da telefon sadece süs değil 📱 Araba çalmadan önce tarıyorsun, aracını kuryeyle ayağına getirtiyorsun, görevler mesajla geliyor, boş vakitte de Snapmatic'te ekran süreni dolduruyorsun 😅
 
 10 uygulamanın hepsini tek tek anlattık 👇
 
