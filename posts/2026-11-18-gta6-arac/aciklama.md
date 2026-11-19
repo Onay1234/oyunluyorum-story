@@ -1,6 +1,6 @@
 # GTA 6 araç rehberi – Instagram karuseli
 
-Durum: hazır, henüz paylaşılmadı
+Durum: paylaşıldı (19 Kasım 2026)
 Boyut: 1080×1440, 4 slayt
 Tasarım tuvali: https://claude.ai/artifact/9SfQHLnDvN1VoScTH5Xerq
 Kaynak: https://www.gamespot.com/articles/how-to-own-more-cars-and-other-vehicles-in-gta-6/
