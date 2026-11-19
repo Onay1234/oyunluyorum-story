@@ -1,6 +1,6 @@
 # GTA 6 silah ve envanter rehberi – Instagram karuseli
 
-Durum: planlandı 19.11.2026 16:00 (Berlin), Metricool id 434213658
+Durum: paylaşıldı 19.11.2026 16:00 (Berlin) · https://www.instagram.com/p/Df7YAjXoQVk/
 Boyut: 1080×1440, 4 slayt
 Tasarım tuvali: https://claude.ai/artifact/Uk4sWCubbt3ZnSuRmCLk8N
 Kaynak: https://www.gamesradar.com/games/grand-theft-auto/gta-6-manage-loadout/
