@@ -1,6 +1,6 @@
 # GTA 6 hayvan detayları – Reels (seslendirmeli)
 
-Durum: hazır, henüz paylaşılmadı
+Durum: TikTok + YouTube Shorts paylaşıldı 19.11.2026 17:50 (Berlin) · https://www.tiktok.com/@oyunlu_yorum/video/7709926113287343382 · https://www.youtube.com/shorts/Eoqs1qu1pnk · Instagram henüz değil
 Boyut: 1080×1920, 18,5 sn
 Ses: ElevenLabs, Onay klonu (v4, stability 50, similarity 75, cs 60), kullanıcının kendi ürettiği kayıt
 Videolar (X): @gtasix_ (kedi/araba), @NikTek (yılan), @nyrhae (kedi sevme), @ChumBucketDrama (köpek)
