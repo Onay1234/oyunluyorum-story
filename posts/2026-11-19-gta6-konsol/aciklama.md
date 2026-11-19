@@ -1,6 +1,6 @@
 # GTA 6 JoySystem konsolu ve oyun içi oyunlar – Instagram karuseli
 
-Durum: hazır, henüz paylaşılmadı
+Durum: Instagram karusel paylaşıldı 19.11.2026 20:16 (Berlin) · https://www.instagram.com/p/Df7z6YIH07a/
 Boyut: 1080×1440, 5 slayt
 Kaynak: https://kotaku.com/gta-6-arcade-games-console-rob-nelson-vice-city-interview-gta6-2000757904
 Görseller: Digital Foundry videosundan kareler (X, @TheGameVerse paylaşımı)
