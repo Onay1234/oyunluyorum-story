@@ -1,6 +1,6 @@
 # GTA 6 para yönetimi – Instagram karuseli
 
-Durum: hazır, henüz paylaşılmadı
+Durum: paylaşıldı 19.11.2026 14:11 (Berlin) · https://www.instagram.com/p/Df7KTKqiKhE/
 Boyut: 1080×1440, 5 slayt (3. slayt video: gta6-para-3.mp4, 8 sn, sessiz; gta6-para-3.png onun durağan yedeği)
 Sıra: gta6-para-1.png, gta6-para-2.png, gta6-para-3.mp4, gta6-para-4.png, gta6-para-5.png
 Tasarım tuvali: https://claude.ai/artifact/UEipRBapLZEHbARUr1kMxb
