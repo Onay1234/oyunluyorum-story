@@ -1,6 +1,6 @@
 # GTA 6'da araba satma – Instagram karuseli
 
-Durum: hazır, henüz paylaşılmadı
+Durum: planlandı 20.11.2026 12:00 (TR) / 10:00 (Berlin), Metricool id 434896584
 Boyut: 1080×1440, 5 slayt
 Kaynak: https://gamerant.com/how-to-sell-vehicles-gta-6/ (3. slayttaki WAiNK görseli GameSpot'tan)
 

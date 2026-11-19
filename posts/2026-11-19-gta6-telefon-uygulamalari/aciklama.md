@@ -1,6 +1,6 @@
 # GTA 6 telefon uygulamaları – Instagram karuseli
 
-Durum: hazır, henüz paylaşılmadı
+Durum: planlandı 20.11.2026 10:00 (TR) / 08:00 (Berlin), Metricool id 434896566
 Boyut: 1080×1440, 6 slayt
 Kaynak: https://www.gamespot.com/articles/all-gta-6-smartphone-apps-and-what-they-do/
 
