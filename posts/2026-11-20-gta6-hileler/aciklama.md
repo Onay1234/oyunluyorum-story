@@ -1,9 +1,9 @@
 # GTA 6 hileleri ve kodları – Instagram karuseli
 
 Durum: hazır, henüz paylaşılmadı
-Boyut: 1080×1440, 6 slayt
+Boyut: 1080×1440, 8 slayt
 Kaynak: https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/
-Not: GameSpot'ta 60'tan fazla hile var, kodu yayınlanmış olanların en işe yarar 16'sı seçildi.
+Not: Kodu yayınlanan 18 hilenin 17si kod kartlarıyla (renkli tüplü TV filtresi yer olmadığı için çıkarıldı); kodu henüz açıklanmayan en iyi 12 hile açma şartlarıyla.
 
 ## Açıklama
 
