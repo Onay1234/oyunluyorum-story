@@ -1,6 +1,6 @@
 # GTA 6'da yolcu uçağı çalma – Instagram karuseli
 
-Durum: hazır, henüz paylaşılmadı
+Durum: Instagram karusel paylaşıldı 20.11.2026 13:22 (Berlin) · https://www.instagram.com/p/Df9pVPjpRSu/
 Boyut: 1080×1440, 6 slayt
 Kaynak: https://gamerant.com/gta-6-how-get-airliner-passneger-airplane/
 
