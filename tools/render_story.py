@@ -10,10 +10,11 @@ story.json:
   "rows": [
     {"name": "Detroit: Become Human", "store": "Epic", "old": "142,00 TL",
      "new": "28,40 TL", "cut": 80, "free": false, "until": "2 Aralık'a kadar",
-     "image": "/yol/detroit.jpg"}
+     "image": "/yol/detroit.jpg", "atl": true}
   ]
 }
 En fazla 6 satır. "free": true satırı sarı ve "Ücretsiz" yazılı çizilir.
+"atl": true (yeni tarihî en düşük fiyat) satırına kırmızı ikonlu "Tarihî en düşük" etiketi ve kırmızı çerçeve eklenir.
 """
 import html, json, pathlib, sys
 from playwright.sync_api import sync_playwright
@@ -22,7 +23,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 FONTS = ROOT / "assets" / "fonts"
 LOGO = ROOT / "assets" / "logo.png"
 LOGO_FULL = ROOT / "assets" / "logo-full-white.png"
-BG, SURFACE, ACCENT = "#1A0630", "#2E0D52", "#FFC50D"
+BG, SURFACE, ACCENT, LOW_RED = "#1A0630", "#2E0D52", "#FFC50D", "#E5243B"
 COND = "Poppins, Arial, sans-serif"
 
 
@@ -40,6 +41,19 @@ def logo_img(h):
     return ""
 
 
+ATL_ICON = ('<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" '
+            'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 17l-8.5-8.5-5 5L2 7"></path>'
+            '<path d="M16 17h6v-6"></path></svg>')
+
+
+def atl_pill(r):
+    if not r.get("atl"):
+        return ""
+    return (f'<div style="align-self:flex-start;display:flex;align-items:center;gap:8px;padding:4px 14px 4px 10px;'
+            f'border-radius:999px;background:{LOW_RED};color:#fff;font-size:19px;font-weight:700;'
+            f'text-transform:uppercase;letter-spacing:.5px">{ATL_ICON}Tarihî en düşük</div>')
+
+
 def row(r):
     name = f'<div lang="en" style="font-family:{COND};font-weight:700;font-size:30px;line-height:1.15;text-transform:uppercase">{e(r["name"])}</div>'
     if r.get("free"):
@@ -47,14 +61,15 @@ def row(r):
                  if r.get("image") else
                  f'<div style="width:200px;height:112px;flex:none;border-radius:14px;background:{BG};display:flex;align-items:center;justify-content:center">{logo_img(88)}</div>')
         return f'''<div style="display:flex;align-items:center;gap:24px;padding:18px;border-radius:24px;background:{ACCENT};color:{BG}">
-{thumb}<div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:6px">{name}
+{thumb}<div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:6px">{atl_pill(r)}{name}
 <div style="font-size:22px;font-weight:600">{e(r.get("store"))} · {e(r.get("until"))}</div></div>
 <div style="flex:none;font-family:{COND};font-weight:800;font-size:40px;text-transform:uppercase">Ücretsiz</div></div>'''
     thumb = (f'<img src="{uri(r["image"])}" style="width:200px;height:112px;flex:none;border-radius:14px;object-fit:cover;display:block">'
              if r.get("image") else
              f'<div style="width:200px;height:112px;flex:none;border-radius:14px;background:{BG}"></div>')
-    return f'''<div style="display:flex;align-items:center;gap:24px;padding:18px;border-radius:24px;background:{SURFACE}">
-{thumb}<div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:6px">{name}
+    border = f"box-shadow:inset 0 0 0 4px {LOW_RED};" if r.get("atl") else ""
+    return f'''<div style="display:flex;align-items:center;gap:24px;padding:18px;border-radius:24px;background:{SURFACE};{border}">
+{thumb}<div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:6px">{atl_pill(r)}{name}
 <div style="font-size:22px;color:#C9B6E4">{e(r.get("store"))} · <span style="text-decoration:line-through">{e(r.get("old"))}</span></div></div>
 <div style="flex:none;display:flex;flex-direction:column;align-items:flex-end;gap:6px">
 <div style="font-family:{COND};font-weight:800;font-size:40px;line-height:1;color:{ACCENT}">{e(r.get("new"))}</div>
