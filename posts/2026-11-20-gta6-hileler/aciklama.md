@@ -1,6 +1,6 @@
 # GTA 6 hileleri ve kodları – Instagram karuseli
 
-Durum: Instagram karusel paylaşıldı 20.11.2026 21:56 (Berlin) · https://www.instagram.com/p/Df-kLGPn8MK/
+Durum: Instagram karusel paylaşıldı 20.11.2026 21:56 (Berlin) · https://www.instagram.com/p/Df-kLGPn8MK/ · TikTok (fotoğraflı, JPEG, otomatik müzik) https://www.tiktok.com/@oyunlu_yorum/video/7710364808805125398
 Boyut: 1080×1440, 8 slayt
 Kaynak: https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/
 Not: Kodu yayınlanan 18 hilenin 17si kod kartlarıyla (renkli tüplü TV filtresi yer olmadığı için çıkarıldı); kodu henüz açıklanmayan en iyi 12 hile açma şartlarıyla.
