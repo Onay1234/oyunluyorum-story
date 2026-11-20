@@ -1,6 +1,6 @@
 # GTA 6'da Paul Walker'ın Hızlı ve Öfkeli arabası – Instagram karuseli
 
-Durum: hazır, henüz paylaşılmadı
+Durum: Instagram karusel paylaşıldı 20.11.2026 19:39 (Berlin) · https://www.instagram.com/p/Df-UfOWnwI6/
 Boyut: 1080×1440, 6 slayt
 Kaynaklar: https://gamerant.com/gta-6-how-get-paul-walker-mitsubishi-eclipse-fast-and-furious-easter-egg/ · https://www.gamesradar.com/games/grand-theft-auto/gta-6-paul-walker-fast-and-furious-car/
 
