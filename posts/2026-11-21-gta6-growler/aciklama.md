@@ -2,13 +2,14 @@
 
 Durum: hazır, henüz paylaşılmadı
 Boyut: 1080×1440, 5 slayt (PNG Instagram için, JPEG TikTok için)
-Kaynak: https://gamerant.com/gta-6-apartment-laptop-password-lapere-garage-growler-location/
+Kaynaklar: Game Rant, Screen Rant, Radio Times (şifre Radio Times'a göre MuffinsQueen15; ilk rehberler King yazmıştı)
+Not: Garaj kodu karuselde bilerek verilmedi, yorumlarda etkileşim için.
 
 ## Açıklama
 
 GTA 6'da bedava spor araba ve garaj kapmak ister misin? 🚗💗 3. bölümde taşındığın Boobie'nin dairesindeki laptopun şifresini çözünce Vanessa'nın Growler'ı ve La Perle'deki gizli garaj senin oluyor.
 
-Laptop şifresi, garaj kodu ve garajın yeri karuselde 👇 Normalde 29.450 dolarlık kayıt ücretini de ödemiyorsun.
+Laptop şifresi ve garajın yeri karuselde 👇 (Dikkat: King değil Queen!) Garaj kodunu Boobie'nin mesajlarında bul, bulamazsan yorumlara yaz. Normalde 29.450 dolarlık kayıt ücretini de ödemiyorsun.
 
 Kaydet, 3. bölümde lazım olacak. GTA 6 oynayan arkadaşına da gönder 📩
 
