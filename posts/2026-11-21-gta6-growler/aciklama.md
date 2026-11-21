@@ -9,7 +9,9 @@ Not: Garaj kodu karuselde bilerek verilmedi, yorumlarda etkileşim için.
 
 GTA 6'da bedava spor araba ve garaj kapmak ister misin? 🚗💗 3. bölümde taşındığın Boobie'nin dairesindeki laptopun şifresini çözünce Vanessa'nın Growler'ı ve La Perle'deki gizli garaj senin oluyor.
 
-Laptop şifresi ve garajın yeri karuselde 👇 (Dikkat: King değil Queen!) Garaj kodunu Boobie'nin mesajlarında bul, bulamazsan yorumlara yaz. Normalde 29.450 dolarlık kayıt ücretini de ödemiyorsun.
+Laptop şifresi ve garajın yeri karuselde 👇 Garaj kodunu Boobie'nin mesajlarında bul, bulamazsan yorumlara yaz. Normalde 29.450 dolarlık kayıt ücretini de ödemiyorsun.
+
+⚠️ 3. bölüm bitmeden yap, 4. bölümde başka bir eve taşınıyorsun.
 
 Kaydet, 3. bölümde lazım olacak. GTA 6 oynayan arkadaşına da gönder 📩
 
