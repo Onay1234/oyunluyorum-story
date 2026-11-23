@@ -6,7 +6,7 @@ Kaynak: Game Rant (Jake Fillery, 21 Kasım 2026). Format: 5 slayt karusel, 1080x
 
 GTA 6'da Randy 20 pahalı araç istiyor 🏎️💰
 
-Çoğu Capri'deki evlerde, kalanı otoparkta, sokakta, Vice City'de ve Hamlet'te. Kusursuz teslim edersen çift para veriyor. Hangisini en çok çalmak istiyorsun? 👇
+Çoğu Capri'deki evlerde, kalanı otoparkta, sokakta, Vice City'de ve Hamlet'te. Kusursuz teslim edersen parayı ikiye katlıyor. Hangisini en çok çalmak istiyorsun? 👇
 Araç avına beraber çıkacağın arkadaşına gönder.
 
 #gta6 #gtavi #gta6türkiye #rockstargames #araba #oyun #oyunluyorum
