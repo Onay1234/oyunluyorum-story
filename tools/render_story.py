@@ -99,9 +99,9 @@ body{{margin:0}}</style></head><body>
 <div style="position:relative;display:flex;flex-direction:column;gap:20px;margin-top:60px">
 <h1 style="margin:0;font-family:{COND};font-weight:800;font-size:118px;line-height:1.02;text-transform:uppercase;text-shadow:0 4px 24px rgba(0,0,0,.6)">Günün<br><span style="color:{ACCENT}">indirimleri</span></h1>
 <p style="margin:0;font-size:32px;line-height:1.35;color:#EDE4F7">{e(d.get("subtitle"))}</p></div>
-<div style="position:relative;display:flex;flex-direction:column;gap:18px;margin-top:auto">
+<div style="position:relative;display:flex;flex-direction:column;gap:18px;margin-top:20px">
 {rows}</div>
-<div style="position:relative;display:flex;justify-content:flex-end;align-items:center">
+<div style="position:relative;display:flex;justify-content:flex-end;align-items:center;margin-top:auto">
 <div style="font-size:28px;color:#C9B6E4">@oyunlu_yorum</div></div>
 </div></body></html>'''
 
