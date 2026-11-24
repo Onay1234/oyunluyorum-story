@@ -15,7 +15,7 @@ Bu yerleri beraber soyacağın arkadaşına gönder.
 - Brooks Boatworks: 6823
 - La Cascara Motel: 6969
 - Kingpin Bowling: 0300
-(Makaleye göre kod Brooks'taki duvar kâğıdında. Brooks makalesine göre Brooks'un kodu her soygunda değişebilir mi? Hayır, değişen sadece Gibson Brothers bankasının kodu.)
+(Makalelere göre kodlar Brooks Boatworks'te bulunuyor.)
 
 ## Notlar
 - Kingpin makalesine göre kodu girmek için kaynağı bulmuş olmak şart değil.
