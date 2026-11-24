@@ -1,17 +1,17 @@
 # GTA 6 üç gizli kasa: Brooks Boatworks, Kingpin Bowling, La Cascara Motel
 
-Kaynak: Game Rant (üç ayrı makale). Format: 5 slayt karusel, 1080x1440. Görseller makalelerden. Kodlar görsellerde yok, yorumda paylaşılacak.
+Kaynak: Game Rant (üç ayrı makale). Format: 5 slayt karusel, 1080x1440. Görseller makalelerden. Kodlar görsellerde yok. Kodları bulamayanlar yorum yazınca kodlar yorumda iletilecek.
 
 ## Açıklama
 
 GTA 6'da üç gizli yer birbirine bağlı: Brooks Boatworks, Kingpin Bowling ve La Cascara Motel 🔐
 
-Üçünün de silahı, aracı ve para dolu kasası var. Kasa kodları tek yerde saklı. Kodları yoruma bıraktım 👇
+Üçünün de silahı, aracı ve para dolu kasası var. Kasa kodları tek yerde saklı. Kodları bulamazsan yorumlara yaz 👇
 Bu yerleri beraber soyacağın arkadaşına gönder.
 
 #gta6 #gtavi #gta6türkiye #rockstargames #kasakodu #oyun #oyunluyorum
 
-## Yorumda paylaşılacak kodlar
+## Yorumda iletilecek kodlar (soran olursa)
 - Brooks Boatworks: 6823
 - La Cascara Motel: 6969
 - Kingpin Bowling: 0300
