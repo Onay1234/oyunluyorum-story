@@ -1,6 +1,6 @@
 # GTA 6 üç gizli kasa: Brooks Boatworks, Kingpin Bowling, La Cascara Motel
 
-Kaynak: Game Rant (üç ayrı makale). Format: 5 slayt karusel, 1080x1440. Görseller makalelerden. Kodlar görsellerde yok. Kodları bulamayanlar yorum yazınca kodlar yorumda iletilecek.
+Kaynak: Game Rant (üç ayrı makale). Format: 9 slayt karusel (Brooks 4, Kingpin 1, La Cascara 2, kapak ve özet), 1080x1440. Görseller makalelerden. Kodlar görsellerde yok. Kodları bulamayanlar yorum yazınca kodlar yorumda iletilecek.
 
 ## Açıklama
 
