@@ -14,6 +14,8 @@ story.json:
   ]
 }
 En fazla 6 satır. "free": true satırı sarı ve "Ücretsiz" yazılı çizilir.
+"new_release": true satırı yeni çıkan (indirimsiz) oyundur: "new" fiyatı ve "info" (örn. "23 Kasım · %99 olumlu")
+gösterilir, indirim rozeti yerine turkuaz "Yeni" rozeti çizilir; "old"/"cut" gerekmez.
 "atl": true (yeni tarihî en düşük fiyat) satırına kırmızı ikonlu "Tarihî en düşük" etiketi ve kırmızı çerçeve eklenir.
 """
 import html, json, pathlib, sys
@@ -24,6 +26,7 @@ FONTS = ROOT / "assets" / "fonts"
 LOGO = ROOT / "assets" / "logo.png"
 LOGO_FULL = ROOT / "assets" / "logo-full-white.png"
 BG, SURFACE, ACCENT, LOW_RED = "#1A0630", "#2E0D52", "#FFC50D", "#E5243B"
+ACCENT2 = "#03DDD2"
 COND = "Poppins, Arial, sans-serif"
 
 
@@ -55,7 +58,21 @@ def atl_pill(r):
 
 
 def row(r):
+    if r.get("image") and not pathlib.Path(r["image"]).is_file():
+        r = {**r, "image": ""}
     name = f'<div lang="en" style="font-family:{COND};font-weight:700;font-size:30px;line-height:1.15;text-transform:uppercase">{e(r["name"])}</div>'
+    if r.get("new_release"):
+        # Yeni çıkan (indirimsiz) oyun: üstü çizili fiyat ve indirim rozeti yok, turkuaz "Yeni" rozeti var.
+        thumb = (f'<img src="{uri(r["image"])}" style="width:200px;height:112px;flex:none;border-radius:14px;object-fit:cover;display:block">'
+                 if r.get("image") else
+                 f'<div style="width:200px;height:112px;flex:none;border-radius:14px;background:{BG}"></div>')
+        info = " · ".join(x for x in [r.get("store"), r.get("info")] if x)
+        return f'''<div style="display:flex;align-items:center;gap:24px;padding:18px;border-radius:24px;background:{SURFACE}">
+{thumb}<div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:6px">{name}
+<div style="font-size:22px;color:#C9B6E4">{e(info)}</div></div>
+<div style="flex:none;display:flex;flex-direction:column;align-items:flex-end;gap:6px">
+<div style="font-family:{COND};font-weight:800;font-size:40px;line-height:1;color:{ACCENT}">{e(r.get("new"))}</div>
+<div style="padding:4px 12px;border-radius:10px;background:{ACCENT2};color:{BG};font-family:{COND};font-weight:700;font-size:24px;text-transform:uppercase">Yeni</div></div></div>'''
     if r.get("free"):
         thumb = (f'<img src="{uri(r["image"])}" style="width:200px;height:112px;flex:none;border-radius:14px;object-fit:cover;display:block">'
                  if r.get("image") else
