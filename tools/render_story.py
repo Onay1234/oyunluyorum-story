@@ -14,6 +14,7 @@ story.json:
   ]
 }
 En fazla 6 satır. "free": true satırı sarı ve "Ücretsiz" yazılı çizilir.
+Satırlardan biri "new_release" ise başlık otomatik olarak "Günün indirimleri / ve yeni oyunları" olur.
 "new_release": true satırı yeni çıkan (indirimsiz) oyundur: "new" fiyatı ve "info" (örn. "23 Kasım · %99 olumlu")
 gösterilir, indirim rozeti yerine turkuaz "Yeni" rozeti çizilir; "old"/"cut" gerekmez.
 "atl": true (yeni tarihî en düşük fiyat) satırına kırmızı ikonlu "Tarihî en düşük" etiketi ve kırmızı çerçeve eklenir.
@@ -93,6 +94,15 @@ def row(r):
 <div style="padding:4px 12px;border-radius:10px;background:{ACCENT};color:{BG};font-family:{COND};font-weight:700;font-size:24px">-%{e(r.get("cut"))}</div></div></div>'''
 
 
+def title_html(d):
+    h1 = "margin:0;font-family:{};font-weight:800;line-height:1.02;text-transform:uppercase;text-shadow:0 4px 24px rgba(0,0,0,.6)".format(COND)
+    if any(r.get("new_release") for r in d["rows"][:6]):
+        # Karma story (indirim + yeni çıkan): iki satırlı, daha küçük başlık.
+        return (f'<h1 style="{h1};font-size:80px">Günün indirimleri<br>'
+                f'<span style="color:{ACCENT}">ve yeni oyunları</span></h1>')
+    return f'<h1 style="{h1};font-size:118px">Günün<br><span style="color:{ACCENT}">indirimleri</span></h1>'
+
+
 def build(d):
     rows = "\n".join(row(r) for r in d["rows"][:6])
     brand = (f'<img src="{uri(LOGO_FULL)}" alt="Oyunluyorum" style="height:60px;width:auto">' if LOGO_FULL.exists()
@@ -114,7 +124,7 @@ body{{margin:0}}</style></head><body>
 {brand}
 <div style="font-size:28px;font-weight:600;color:#EDE4F7">{e(d["date"])}</div></div>
 <div style="position:relative;display:flex;flex-direction:column;gap:20px;margin-top:60px">
-<h1 style="margin:0;font-family:{COND};font-weight:800;font-size:118px;line-height:1.02;text-transform:uppercase;text-shadow:0 4px 24px rgba(0,0,0,.6)">Günün<br><span style="color:{ACCENT}">indirimleri</span></h1>
+{title_html(d)}
 <p style="margin:0;font-size:32px;line-height:1.35;color:#EDE4F7">{e(d.get("subtitle"))}</p></div>
 <div style="position:relative;display:flex;flex-direction:column;gap:18px;margin-top:20px">
 {rows}</div>
