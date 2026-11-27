@@ -4,14 +4,14 @@
   "t1": 12.9,
   "spec": "triangle@2",
   "label": "MOTOR AÇIK KALIR",
-  "y": 1560
+  "y": 1400
  },
  {
   "t0": 13.8,
   "t1": 18.8,
   "spec": "triangle@2",
   "label": "TEKNEDE OTOPİLOT",
-  "y": 1560
+  "y": 1400
  },
  {
   "t0": 21.0,
@@ -22,7 +22,7 @@
    2
   ],
   "fo": false,
-  "y": 1560
+  "y": 1400
  },
  {
   "t0": 24.8,
@@ -30,7 +30,7 @@
   "spec": "dpad:down* > options > circle*",
   "label": "HEDEFE OTOMATİK GİT",
   "fi": false,
-  "y": 1560
+  "y": 1400
  },
  {
   "t0": 27.0,
@@ -38,7 +38,7 @@
   "spec": "dpad:left* + rs",
   "label": "FARLAR",
   "fo": false,
-  "y": 1560
+  "y": 1400
  },
  {
   "t0": 30.0,
@@ -46,7 +46,7 @@
   "spec": "dpad:left* + rs",
   "label": "CAM · TAVAN · ÇAPA",
   "fi": false,
-  "y": 1560
+  "y": 1400
  },
  {
   "t0": 35.4,
@@ -57,7 +57,7 @@
    1
   ],
   "fo": false,
-  "y": 1560
+  "y": 1400
  },
  {
   "t0": 36.9,
@@ -65,27 +65,27 @@
   "spec": "l3 > square*",
   "label": "ARAÇ TERS DÖNDÜ",
   "fi": false,
-  "y": 1560
+  "y": 1400
  },
  {
   "t0": 40.8,
   "t1": 43.3,
   "spec": "r1",
   "label": "JET SKİ'Yİ SUYA İT",
-  "y": 1560
+  "y": 1400
  },
  {
   "t0": 44.3,
   "t1": 46.3,
   "spec": "square",
   "label": "KAPIYLA VUR",
-  "y": 1560
+  "y": 1400
  },
  {
   "t0": 49.2,
   "t1": 51.0,
   "spec": "circle*",
   "label": "POLİSTEN SAKLAN",
-  "y": 1560
+  "y": 1400
  }
 ]
