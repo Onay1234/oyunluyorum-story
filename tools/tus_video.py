@@ -10,7 +10,7 @@ from playwright.async_api import async_playwright
 async def render(segs, platform, d):
     async with async_playwright() as p:
         b = await p.chromium.launch(executable_path='/usr/bin/google-chrome')
-        pg = await b.new_page(viewport={'width': 1080, 'height': 700}, device_scale_factor=1.4)
+        pg = await b.new_page(viewport={'width': 1080, 'height': 700}, device_scale_factor=1.2)
         for i, s in enumerate(segs):
             html = ('<html><body style="margin:0;background:transparent">'
                     + overlay_html(s['spec'], s.get('label'), platform, tuple(s.get('dim', []))) + '</body></html>')
