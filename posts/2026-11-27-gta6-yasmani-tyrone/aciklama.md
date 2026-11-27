@@ -6,7 +6,7 @@ Not: Makale yüzde/dolar vermiyor, ödemeler sadece yüksek/orta/düşük. Slayt
 
 ## Açıklama
 GTA 6'da çaldığın malı yanlış kişiye satıyorsan para kaybediyorsun 💸
-Uyuşturucuyu Tyrone'a, mücevher ve işaretli parayı Yasmani'ye götür. Partnerine sattırırsan mal rastgele birine gidiyor ve çok daha az ödüyor.
+Medikal ürünleri Tyrone'a, mücevher ve işaretli parayı Yasmani'ye götür. Partnerine sattırırsan mal rastgele birine gidiyor ve çok daha az ödüyor.
 Sen malını nereye satıyorsun? 👇
 Bunu soygun arkadaşına gönder.
 
