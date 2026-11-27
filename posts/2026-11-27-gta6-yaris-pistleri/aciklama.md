@@ -1,13 +1,13 @@
-# GTA 6 yarış pistleri ve meydan okumaları (karusel, 6 slayt)
+# GTA 6 yarış rehberi: yerler, madalya süreleri, para (karusel, 7 slayt)
 
 Durum: paylaşılmadı
-Kaynak: https://www.gamespot.com/articles/all-race-challenges-racetrack-locations-in-gta-6/
-Not: Görseller GameSpot makalesinden (harita kartları ve oyun görüntüleri). Slayt 2'deki "belki de en iyi yarış deneyimi" makalenin "arguably" ifadesine dayanıyor.
+Kaynaklar: GameSpot (yerler), GAMES.GG (13 meydan okuma süre/puan hedefleri, Boone 400$ kira, Gellhorn giriş turu 1:00), PowerPyx (40 normal yarış, giriş ve kiralama ücreti, kupa)
+Not: Hiçbir kaynak madalya başına para ödülü vermiyor, slayt 7 bunu açıkça söylüyor. Konum tarifleri kaynaklar arasında küçük farklılık gösteriyor, ortak olanlar yazıldı.
 
 ## Açıklama
-GTA 6'da sadece sokak yarışı yok, 7 gerçek yarış pisti var 🏁
-Gellhorn Raceway'de stock car, Thrillbilly Mud Club'da 6 farklı çamur meydan okuması, Boone'da her turda biri elenen yarış, Mount Kalaga'da bisikletle dağdan iniş.
-Sen hangisine ilk gidersin? 👇
+GTA 6'da 13 yarış meydan okuması var ve %100 için 10 altın madalya yetiyor 🏆
+Gellhorn, Thrillbilly Mud Club, Boone, Ambrosia, Kalaga, Hamlet ve Waning Sands: hepsinin altın süre ve puan hedefleri slaytlarda.
+Sen hangisinde altın aldın? 👇
 Bunu yarış seven arkadaşına gönder.
 
 #gta6 #gtavi #gta6türkiye #rockstargames #oyun #oyunluyorum
