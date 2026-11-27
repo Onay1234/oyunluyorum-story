@@ -17,6 +17,9 @@ Sözdizimi:
     dpad:up|down|left|right  yönü sarı yanar
 Tuş adları: cross circle square triangle options share touchpad create
             l1 r1 l2 r2 l3 r3 ls rs dpad
+    @2 çift bas (üstte 2× rozeti):  "triangle@2"
+
+Video üstü (şeffaf PNG) için: overlay_html(spec, label, dim=(...)) — bkz. tus_video.py
 Xbox karşılıkları otomatik: A B X Y, MENU, LB RB LT RT, LS RS.
 """
 
@@ -154,3 +157,33 @@ def ico(name, size=58, direction=None, platform='ps'):
     return (f'<span style="display:inline-flex;align-items:center;justify-content:center;width:{size}px;height:{size}px;'
             f'margin:0 4px;background:{CAP_BG};border:2px solid {CAP_BORDER};border-radius:14px;vertical-align:middle">'
             f'<svg width="{int(size*0.72)}" height="{int(size*0.72)}" viewBox="0 0 {vb} {vb}">{inner}</svg></span>')
+
+
+def overlay_html(spec, label=None, platform='ps', dim=(), hold_label='BASILI TUT'):
+    """Video üstü tuş görseli (kartsız, şeffaf zemin için). dim: soluk gösterilecek tuş sıraları (0'dan).
+    spec örn. "dpad:down* > options > circle*", "triangle@2", "dpad:left* + rs"."""
+    toks = [t for t in spec.replace('+', ' + ').replace('>', ' > ').split()]
+    items, idx = [], 0
+    for tok in toks:
+        if tok in ('+', '>'):
+            items.append(_sep(tok))
+            continue
+        hold = tok.endswith('*')
+        tok = tok.rstrip('*')
+        tok, _, rep = tok.partition('@')
+        name, _, arg = tok.partition(':')
+        badge = (f'<div style="position:absolute;top:-22px;right:-16px;background:{YELLOW};color:#1A0630;'
+                 f'font-size:30px;font-weight:900;border-radius:20px;padding:2px 14px;line-height:38px">{rep}\u00d7</div>') if rep else ''
+        lab = (f'<div style="margin-top:12px;font-size:22px;font-weight:800;letter-spacing:1.5px;color:{YELLOW};'
+               f'white-space:nowrap;height:26px;text-shadow:0 2px 8px #000">{hold_label}</div>') if hold else \
+              '<div style="margin-top:12px;height:26px"></div>'
+        op = '.28' if idx in dim else '1'
+        items.append(f'<div style="display:flex;flex-direction:column;align-items:center;opacity:{op}">'
+                     f'<div style="position:relative">{key(name, arg or None, platform)}{badge}</div>{lab}</div>')
+        idx += 1
+    pill = (f'<div style="margin-top:6px;background:#22D3EE;color:#0B1B2B;font-size:30px;font-weight:800;'
+            f'letter-spacing:3px;padding:8px 34px;border-radius:30px;box-shadow:0 4px 18px rgba(0,0,0,.5)">{label}</div>'
+            if label else '')
+    return (f'<div id="ov" style="display:inline-flex;flex-direction:column;align-items:center;gap:4px;padding:30px 40px 10px;'
+            f'font-family:Poppins,sans-serif;filter:drop-shadow(0 6px 16px rgba(0,0,0,.55))">'
+            f'<div style="display:flex;align-items:flex-start;justify-content:center;gap:10px">{"".join(items)}</div>{pill}</div>')
