@@ -1,0 +1,12 @@
+[
+{"t0":6.9,"t1":8.9,"spec":"dpad:right / dpad:left","label":"SİNYAL VER","y":1400},
+{"t0":9.3,"t1":12.9,"spec":"dpad:left@2","label":"RADYOYU AÇ / KAPAT","y":1400},
+{"t0":13.0,"t1":15.9,"spec":"r3","label":"CAMDAN LAF AT","y":1400},
+{"t0":18.2,"t1":19.9,"spec":"dpad:right* > cross","label":"SÜRÜŞÜ PARTNERE DEVRET","dim":[1],"fo":false,"y":1400},
+{"t0":19.9,"t1":22.9,"spec":"dpad:right* > cross","label":"SÜRÜŞÜ PARTNERE DEVRET","fi":false,"y":1400},
+{"t0":23.0,"t1":26.0,"spec":"ls","label":"GERİ ÇEK · ÖN TEKER","fo":false,"y":1400},
+{"t0":26.0,"t1":28.0,"spec":"ls","label":"İLERİ İT · ARKA TEKER","fi":false,"y":1400},
+{"t0":29.6,"t1":32.6,"spec":"cross","label":"KAPUTTAN KAY","y":1400},
+{"t0":33.7,"t1":35.6,"spec":"r3","label":"DUVARA YASLAN","y":1400},
+{"t0":35.5,"t1":39.0,"spec":"circle*","label":"SANDALYEYE · İSKELEYE OTUR","y":1400}
+]

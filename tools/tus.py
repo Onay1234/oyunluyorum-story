@@ -98,6 +98,8 @@ def key(name, direction=None, platform='ps'):
 
 
 def _sep(kind):
+    if kind == '/':
+        return f'<div style="font-size:26px;font-weight:800;color:{YELLOW};line-height:140px;letter-spacing:1px">VEYA</div>'
     if kind == '+':
         return f'<div style="font-size:48px;font-weight:800;color:{YELLOW};line-height:140px">+</div>'
     return ('<svg width="46" height="140" viewBox="0 0 46 140"><path d="M6 70 H36 M26 58 L38 70 L26 82" '
@@ -162,10 +164,10 @@ def ico(name, size=58, direction=None, platform='ps'):
 def overlay_html(spec, label=None, platform='ps', dim=(), hold_label='BASILI TUT'):
     """Video üstü tuş görseli (kartsız, şeffaf zemin için). dim: soluk gösterilecek tuş sıraları (0'dan).
     spec örn. "dpad:down* > options > circle*", "triangle@2", "dpad:left* + rs"."""
-    toks = [t for t in spec.replace('+', ' + ').replace('>', ' > ').split()]
+    toks = [t for t in spec.replace('+', ' + ').replace('>', ' > ').replace('/', ' / ').split()]
     items, idx = [], 0
     for tok in toks:
-        if tok in ('+', '>'):
+        if tok in ('+', '>', '/'):
             items.append(_sep(tok))
             continue
         hold = tok.endswith('*')
