@@ -9,7 +9,7 @@ Tuşlar: L1 > R1 > Daire (basılı). Xbox: LB > RB > B.
 ## Açıklama
 GTA 6'da çantanın değerini katlayan bir bug bulundu 💰
 Çömel, çantayı yere bırak, sağ analogla kamerayı çevirip çantayı tekrar al. Sol analoga dokunma! Değer her alışta artıyor, yaklaşık 8-12 kez tekrarlanabiliyor.
-Denemeden önce ayrı bir kayıt almayı unutma. Kaydet 👇
+Rockstar bu bug'ı yamalayabilir, denemeden önce ayrı bir kayıt al. Kaydet 👇
 Bunu GTA oynayan arkadaşına gönder.
 
 #gta6 #gtavi #gta6türkiye #gta6bug #rockstargames #oyun #oyunluyorum
